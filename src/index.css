@@ -157,7 +157,7 @@ header .themeSelector .activeTheme {
 
 .addTask form {
   display: flex;
-  gap: 7px;
+  justify-content: space-between;
 }
 
 .addTask form input {
@@ -166,6 +166,7 @@ header .themeSelector .activeTheme {
   border: 1px solid #eaeaea;
   border-radius: 5px;
   font-size: 18px;
+  width: 100%;
 }
 
 .addTask form input:focus {
@@ -180,6 +181,7 @@ header .themeSelector .activeTheme {
   border-radius: 5px;
   cursor: pointer;
   font-size: 18px;
+  margin-left: 5px;
 }
 
 .addTask form button:hover {
